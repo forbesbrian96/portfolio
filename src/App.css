@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 70%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
