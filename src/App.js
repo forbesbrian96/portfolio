@@ -65,14 +65,20 @@ const App = () => {
           <div className="gray-section">
             <p className="section-title">SKILLS</p>
 
-            <p className="text">
-              Languages - JavaScript, HTML, CSS, Java, Python, SQL, Mongo, JSON
-              | Libraries and Frameworks - React, Express.js, Django, Jquery,
-              Spring Boot, Bootstrap | Database - PostgreSQL, MongoDB | Other -
-              RESTful Routing, JSON api | Interpersonal Skills - Highly
-              collaborative, strategic problem solver, strong written and verbal
-              communicator
-            </p>
+            <div className="skills">
+              <p className="text">
+                <div className="text-bold">Languages</div> JavaScript, HTML,
+                CSS, Java, Python, SQL
+                <div className="text-bold">Libraries and Frameworks</div>React,
+                Express.js, Django, jQuery, Spring Boot, Bootstrap, Mongoose
+                <div className="text-bold">Databases</div>PostgreSQL, MongoDB
+                <div className="text-bold">Other</div>RESTful Routing, JSON api,
+                Git
+                <div className="text-bold">Interpersonal Skills</div>Highly
+                collaborative, strategic problem solver, strong written and
+                verbal communicator
+              </p>
+            </div>
           </div>
 
           <div className="white-section">
@@ -110,13 +116,13 @@ const App = () => {
               <div className="contact-info">
                 <div className="contact-section">
                   <span class="material-symbols-outlined">call</span>
-                  <p className="contact-text-title">Call or Text</p>
+                  <p className="text-title">Call or Text</p>
                   <p className="contact-text">(843)-666-2070</p>
                 </div>
 
                 <div className="contact-section">
                   <span class="material-symbols-outlined">mail</span>
-                  <p className="contact-text-title">Email</p>
+                  <p className="text-title">Email</p>
                   <p className="contact-text">forbesbrian96@gmail.com</p>
                 </div>
 
@@ -124,7 +130,7 @@ const App = () => {
                   <img src={github} className="contact-logo-gh"></img>
                   <a
                     href="https://github.com/forbesbrian96"
-                    className="contact-text-title"
+                    className="text-title"
                   >
                     GitHub
                   </a>
@@ -134,7 +140,7 @@ const App = () => {
                   <img src={linkedinlogo} className="contact-logo-li"></img>
                   <a
                     href="https://www.linkedin.com/in/brian-forbes-swe/"
-                    className="contact-text-title"
+                    className="text-title"
                   >
                     LinkedIn
                   </a>

@@ -100,6 +100,7 @@ a {
   height: 100%;
   width: 100%;
   margin-right: 16%;
+  word-spacing: 3px;
 }
 
 .am-1 {
@@ -114,6 +115,19 @@ a {
   text-align: left;
 }
 
+.skills {
+  text-align: left;
+  margin-left: 18%;
+  margin-bottom: 8%;
+  word-spacing: 3px;
+}
+
+.text-bold {
+  font-weight: 700;
+  color: black;
+  margin-top: 3%;
+}
+
 .projects {
   display: flex;
   flex-direction: column;
@@ -122,7 +136,7 @@ a {
 .project-photo-box {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 2.5vw;
   margin: 0 auto;
   margin-bottom: 8%;
 }
@@ -131,6 +145,7 @@ a {
   height: 25vh;
   width: 27vw;
   border-radius: 3px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, .6);
 }
 
 .resume-box {
@@ -169,7 +184,7 @@ a {
   margin-bottom: 8%;
 }
 
-.contact-text-title {
+.text-title {
   margin: 0 auto;
   width: 70%;
   margin-left: 40%;
