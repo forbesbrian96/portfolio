@@ -1,15 +1,129 @@
 body {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .overlay {
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
-  width: 70%;
   margin: 0 auto;
+}
+
+.page-head {
+  overflow: auto;
+  position: relative;
+}
+
+.page-head::before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url("swe-monitors.jpg");
+  background-size: 100% 130%;
+  background-position: center;
+  height: 100vh;
+  filter: grayscale(20%);
+  filter: brightness(55%);
+}
+
+.name {
+  display: flex;
+  font-weight: 800;
+  font-size: 65px;
+  color: #ffffff;
+  margin-bottom: 0;
+  margin-top: 44vh;
+  margin-left: 15vw;
+}
+
+.title {
+  display: flex;
+  font-weight: 300;
+  font-size: 65px;
+  color: #fbd214;
+  margin: 0;
+  margin-left: 15vw;
+}
+
+.brand-statement {
+  display: flex;
+  color: #ffffff;
+  font-size: 30px;
+  margin: 0;
+  margin-left: 15vw;
+  margin-bottom: 15%;
+}
+
+.white-section {
+  background-color: #ffffff;
+}
+
+.gray-section {
+  background-color: #dedede;
+}
+
+.text {
+  margin: 0 auto;
+  width: 70%;
+  margin-bottom: 5%;
 }
 
 a {
   text-decoration: none;
+}
+
+.section-title {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.about-me {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.li-photo {
+  width: 50vw;
+  height: 70vh;
+  margin-left: 16%;
+}
+
+.about-me-text {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin-right: 16%;
+}
+
+.am-1 {
+  margin: 10% 15%;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+.am-2 {
+  margin: 10% 15%;
+  margin-top: 5%;
+  text-align: left;
+}
+
+.resume-box {
+  display: flex;
+  justify-content: center;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  background-color: black;
+  color: #ffffff;
+  padding: 17px;
 }
