@@ -70,7 +70,7 @@ const App = () => {
                 <div className="text-bold">Languages</div> JavaScript, HTML,
                 CSS, Java, Python, SQL
                 <div className="text-bold">Libraries and Frameworks</div>React,
-                Express.js, Django, jQuery, Spring Boot, Bootstrap, Mongoose
+                Express.js, Django, jQuery, Spring Boot, Mongoose, Bootstrap
                 <div className="text-bold">Databases</div>PostgreSQL, MongoDB
                 <div className="text-bold">Other</div>RESTful Routing, JSON api,
                 Git
@@ -85,9 +85,15 @@ const App = () => {
             <div className="projects">
               <p className="section-title">PROJECTS</p>
               <div className="project-photo-box">
+                <a href="https://powerful-badlands-84110.herokuapp.com/">
                 <img src={reMEMBER} alt="re:MEMBER" className="project-photo" />
+                </a>
+                <a href="https://agile-meadow-78400.herokuapp.com/">
                 <img src={SLASHR} alt="SLASHR" className="project-photo" />
+                </a>
+                <a href="https://agile-bastion-78512.herokuapp.com/">
                 <img src={fleur} alt="fleur" className="project-photo" />
+                </a>
               </div>
             </div>
           </div>
