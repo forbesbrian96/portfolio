@@ -110,25 +110,22 @@ const App = () => {
           </div>
 
           <div className="white-section">
-            <p className="section-title">GET IN TOUCH</p>
+            <p className="contact-section-title">GET IN TOUCH</p>
             <div className="contact">
               <p className="contact-text-blurb">
                 Please don’t hesitate to reach out if you have any questions, or
                 opportunities. I listen to all voicemails, and respond to all
-                texts. Any of the below listed contact methods will see a swift
-                response
+                texts. Follow the links below to see my GitHub and LinkedIn
               </p>
 
               <div className="contact-info">
                 <div className="contact-section">
                   <span class="material-symbols-outlined">call</span>
-                  <p className="text-title">Call or Text</p>
                   <p className="contact-text">(843)-666-2070</p>
                 </div>
 
                 <div className="contact-section">
                   <span class="material-symbols-outlined">mail</span>
-                  <p className="text-title">Email</p>
                   <p className="contact-text">forbesbrian96@gmail.com</p>
                 </div>
 
