@@ -134,6 +134,12 @@ a {
   justify-content: center;
 }
 
+.project-text-bold {
+  font-weight: 700;
+  color: black;
+  margin-bottom: 3%;
+}
+
 .project-box {
   display: flex;
   flex-wrap: wrap;

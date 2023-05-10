@@ -84,6 +84,7 @@ const App = () => {
           <div className="white-section">
             <div className="projects">
               <p className="section-title">PROJECTS</p>
+              <p className="project-text-bold">Click the images below to see the live sites</p>
               <div className="project-box">
 
                 <div className="project">
