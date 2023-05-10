@@ -84,16 +84,98 @@ const App = () => {
           <div className="white-section">
             <div className="projects">
               <p className="section-title">PROJECTS</p>
-              <div className="project-photo-box">
+              <div className="project-box">
+
+                <div className="project">
                 <a href="https://powerful-badlands-84110.herokuapp.com/">
                 <img src={reMEMBER} alt="re:MEMBER" className="project-photo" />
                 </a>
+                <div className="project-description">
+                <p className="text-bold">
+                  re:MEMBER
+                  </p>
+                  <p>
+                  Web-based CRM that enables personalized customer interactions and meets the specific needs of service providers
+                </p>
+                <p className="text-bold">
+                  Technologies Used
+                </p>
+                <p>
+                  Java | Spring Boot | PSQL | JavaScript | React | GitHub | Heroku 
+                </p>
+                <img src={github} className="contact-logo-gh"></img>
+                  <a
+                    href="https://github.com/forbesbrian96/reMEMBER_front-end"
+                    className="project-text-title"
+                  >
+                    Front End
+                  </a>
+                  <a href="https://github.com/forbesbrian96/reMEMBER_back-end" className="project-text-title">
+                    Back End
+                  </a>
+                  </div>
+                </div>
+
+                <div className="project">
                 <a href="https://agile-meadow-78400.herokuapp.com/">
                 <img src={SLASHR} alt="SLASHR" className="project-photo" />
                 </a>
+                <div className="project-description">
+                <p className="text-bold">
+                  SLASHR
+                  </p>
+                  <p>
+                  Web application for displaying and tracking horror films using the MERN stack, as well as the TMDB API
+                </p>
+                <p className="text-bold">
+                  Technologies Used
+                </p>
+                <p>
+                  Python | Express | Mongo | Mongoose | TMDB (API) | JavaScript | React | GitHub | Heroku 
+                </p>
+                <img src={github} className="contact-logo-gh"></img>
+                  <a
+                    href="https://github.com/forbesbrian96/Slashr_front-end"
+                    className="project-text-title"
+                  >
+                    Front End
+                  </a>
+                  <a href="https://github.com/forbesbrian96/Slashr_back-end" className="project-text-title">
+                    Back End
+                  </a>
+                  </div>
+                </div>
+
+                <div className="project">
                 <a href="https://agile-bastion-78512.herokuapp.com/">
                 <img src={fleur} alt="fleur" className="project-photo" />
                 </a>
+                <div className="project-description">
+                <p className="text-bold">
+                  fleur
+                  </p>
+                  <p>
+                  Web-based application for logging plants and tracking gardening activities, implemented with React Routers
+                </p>
+                <p className="text-bold">
+                  Technologies Used
+                </p>
+                <p>
+                  Python | Django | PSQL | JavaScript | React | GitHub | Heroku 
+                </p>
+                <img src={github} className="contact-logo-gh"></img>
+                  <a
+                    href="https://github.com/forbesbrian96/Fleur_front-end"
+                    className="project-text-title"
+                  >
+                    Front End
+                  </a>
+                  <a href="https://github.com/forbesbrian96/Fleur_back-end" className="project-text-title">
+                    Back End
+                  </a>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>

@@ -134,7 +134,7 @@ a {
   justify-content: center;
 }
 
-.project-photo-box {
+.project-box {
   display: flex;
   flex-wrap: wrap;
   gap: 2.5vw;
@@ -142,8 +142,12 @@ a {
   margin-bottom: 8%;
 }
 
+.project {
+  width: 30vw;
+}
+
 .project-photo {
-  height: 28vh;
+  height: 29vh;
   width: 30vw;
   border-radius: 3px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, .6);
@@ -152,6 +156,18 @@ a {
 
 .project-photo:hover {
   transform: scale(1.1);
+}
+
+.project-description {
+  display: block;
+}
+
+.project-text-title {
+  margin: 0 auto;
+  width: 70%;
+  margin-left: 10%;
+  font-weight: 700;
+  color: black;
 }
 
 .resume-box {
