@@ -69,7 +69,7 @@ const App = () => {
               <p className="text">
                 <div className="text-bold">Languages</div> JavaScript, HTML,
                 CSS, Java, Python, SQL
-                <div className="text-bold">Libraries and Frameworks</div>React,
+                <div className="text-bold">Libraries and Frameworks</div>React.js, React Native,
                 Express.js, Django, jQuery, Spring Boot, Mongoose, Bootstrap
                 <div className="text-bold">Databases</div>PostgreSQL, MongoDB
                 <div className="text-bold">Other</div>RESTful Routing, JSON api,
