@@ -118,7 +118,7 @@ const App = () => {
                 </div>
 
                 <div className="project">
-                <a href="https://agile-meadow-78400.herokuapp.com/">
+                <a href="https://agile-meadow-78400.herokuapp.com/" target="_blank">
                 <img src={SLASHR} alt="SLASHR" className="project-photo" />
                 </a>
                 <div className="project-description">
