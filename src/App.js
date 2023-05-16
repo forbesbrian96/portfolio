@@ -148,7 +148,7 @@ const App = () => {
                 </div>
 
                 <div className="project">
-                <a href="https://agile-bastion-78512.herokuapp.com/api/plants">
+                <a href="https://agile-bastion-78512.herokuapp.com/api/plants" target="_blank">
                 <img src={fleur} alt="fleur" className="project-photo" />
                 </a>
                 <div className="project-description">
