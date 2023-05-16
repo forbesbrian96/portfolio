@@ -69,8 +69,9 @@ const App = () => {
               <p className="text">
                 <div className="text-bold">Languages</div> JavaScript, HTML,
                 CSS, Java, Python, SQL
-                <div className="text-bold">Libraries and Frameworks</div>React.js, React Native,
-                Express.js, Django, jQuery, Spring Boot, Mongoose, Bootstrap
+                <div className="text-bold">Libraries and Frameworks</div>
+                React.js, React Native, Express.js, Django, jQuery, Spring Boot,
+                Mongoose, Bootstrap
                 <div className="text-bold">Databases</div>PostgreSQL, MongoDB
                 <div className="text-bold">Other</div>RESTful Routing, JSON api,
                 Git
@@ -84,99 +85,122 @@ const App = () => {
           <div className="white-section">
             <div className="projects">
               <p className="section-title">PROJECTS</p>
-              <p className="project-text-bold">Click the images below to see the live sites</p>
+              <p className="project-text-bold">
+                Click the images below to see the live sites
+              </p>
               <div className="project-box">
-
                 <div className="project">
-                <a href="https://powerful-badlands-84110.herokuapp.com/" target="_blank">
-                <img src={reMEMBER} alt="re:MEMBER" className="project-photo" />
-                </a>
-                <div className="project-description">
-                <p className="text-bold">
-                  re:MEMBER
-                  </p>
-                  <p>
-                  Web-based CRM that enables personalized customer interactions and meets the specific needs of service providers
-                </p>
-                <p className="text-bold">
-                  Technologies Used
-                </p>
-                <p>
-                  Java | Spring Boot | PSQL | JavaScript | React | GitHub | Heroku 
-                </p>
-                <img src={github} className="contact-logo-gh"></img>
                   <a
-                    href="https://github.com/forbesbrian96/reMEMBER_front-end"
-                    className="project-text-title"
+                    href="https://powerful-badlands-84110.herokuapp.com/"
+                    target="_blank"
                   >
-                    Front End
+                    <img
+                      src={reMEMBER}
+                      alt="re:MEMBER"
+                      className="project-photo"
+                    />
                   </a>
-                  <a href="https://github.com/forbesbrian96/reMEMBER_back-end" className="project-text-title">
-                    Back End
-                  </a>
+                  <div className="project-description">
+                    <p className="text-bold">re:MEMBER</p>
+                    <p>
+                      Web-based CRM that enables personalized customer
+                      interactions and meets the specific needs of service
+                      providers
+                    </p>
+                    <p className="text-bold">Technologies Used</p>
+                    <p>
+                      Java | Spring Boot | PSQL | JavaScript | React | GitHub |
+                      Heroku
+                    </p>
+                    <img src={github} className="contact-logo-gh"></img>
+                    <a
+                      href="https://github.com/forbesbrian96/reMEMBER_front-end"
+                      className="project-text-title"
+                      target="_blank"
+                    >
+                      Front End
+                    </a>
+                    <a
+                      href="https://github.com/forbesbrian96/reMEMBER_back-end"
+                      className="project-text-title"
+                      target="_blank"
+                    >
+                      Back End
+                    </a>
                   </div>
                 </div>
 
                 <div className="project">
-                <a href="https://agile-meadow-78400.herokuapp.com/" target="_blank">
-                <img src={SLASHR} alt="SLASHR" className="project-photo" />
-                </a>
-                <div className="project-description">
-                <p className="text-bold">
-                  SLASHR
-                  </p>
-                  <p>
-                  Web application for displaying and tracking horror films using the MERN stack, as well as the TMDB API
-                </p>
-                <p className="text-bold">
-                  Technologies Used
-                </p>
-                <p>
-                  Python | Express | Mongo | Mongoose | TMDB (API) | JavaScript | React | GitHub | Heroku 
-                </p>
-                <img src={github} className="contact-logo-gh"></img>
                   <a
-                    href="https://github.com/forbesbrian96/Slashr_front-end"
-                    className="project-text-title"
+                    href="https://agile-meadow-78400.herokuapp.com/"
+                    target="_blank"
                   >
-                    Front End
+                    <img src={SLASHR} alt="SLASHR" className="project-photo" />
                   </a>
-                  <a href="https://github.com/forbesbrian96/Slashr_back-end" className="project-text-title">
-                    Back End
-                  </a>
+                  <div className="project-description">
+                    <p className="text-bold">SLASHR</p>
+                    <p>
+                      Web application for displaying and tracking horror films
+                      using the MERN stack, as well as the TMDB API
+                    </p>
+                    <p className="text-bold">Technologies Used</p>
+                    <p>
+                      Python | Express | Mongo | Mongoose | TMDB (API) |
+                      JavaScript | React | GitHub | Heroku
+                    </p>
+                    <img src={github} className="contact-logo-gh"></img>
+                    <a
+                      href="https://github.com/forbesbrian96/Slashr_front-end"
+                      className="project-text-title"
+                      target="_blank"
+                    >
+                      Front End
+                    </a>
+                    <a
+                      href="https://github.com/forbesbrian96/Slashr_back-end"
+                      className="project-text-title"
+                      target="_blank"
+                    >
+                      Back End
+                    </a>
                   </div>
                 </div>
 
                 <div className="project">
-                <a href="https://agile-bastion-78512.herokuapp.com/api/plants" target="_blank">
-                <img src={fleur} alt="fleur" className="project-photo" />
-                </a>
-                <div className="project-description">
-                <p className="text-bold">
-                  fleur
-                  </p>
-                  <p>
-                  Web-based application for logging plants and tracking gardening activities, implemented with React Routers
-                </p>
-                <p className="text-bold">
-                  Technologies Used
-                </p>
-                <p>
-                  Python | Django | PSQL | JavaScript | React | GitHub | Heroku 
-                </p>
-                <img src={github} className="contact-logo-gh"></img>
                   <a
-                    href="https://github.com/forbesbrian96/Fleur_front-end"
-                    className="project-text-title"
+                    href="https://agile-bastion-78512.herokuapp.com/api/plants"
+                    target="_blank"
                   >
-                    Front End
+                    <img src={fleur} alt="fleur" className="project-photo" />
                   </a>
-                  <a href="https://github.com/forbesbrian96/Fleur_back-end" className="project-text-title">
-                    Back End
-                  </a>
+                  <div className="project-description">
+                    <p className="text-bold">fleur</p>
+                    <p>
+                      Web-based application for logging plants and tracking
+                      gardening activities, implemented with React Routers
+                    </p>
+                    <p className="text-bold">Technologies Used</p>
+                    <p>
+                      Python | Django | PSQL | JavaScript | React | GitHub |
+                      Heroku
+                    </p>
+                    <img src={github} className="contact-logo-gh"></img>
+                    <a
+                      href="https://github.com/forbesbrian96/Fleur_front-end"
+                      className="project-text-title"
+                      target="_blank"
+                    >
+                      Front End
+                    </a>
+                    <a
+                      href="https://github.com/forbesbrian96/Fleur_back-end"
+                      className="project-text-title"
+                      target="_blank"
+                    >
+                      Back End
+                    </a>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -186,6 +210,7 @@ const App = () => {
               <a
                 href="https://docs.google.com/document/d/1FJlrP-NRLSSrXJuH9fXd9pMgiTZnUgFjlfMrylIi3-k/edit#heading=h.gjdgxs"
                 className="resume"
+                target="_blank"
               >
                 RESUME
               </a>
@@ -217,6 +242,7 @@ const App = () => {
                   <a
                     href="https://github.com/forbesbrian96"
                     className="text-title"
+                    target="_blank"
                   >
                     GitHub
                   </a>
@@ -227,6 +253,7 @@ const App = () => {
                   <a
                     href="https://www.linkedin.com/in/brian-forbes-swe/"
                     className="text-title"
+                    target="_blank"
                   >
                     LinkedIn
                   </a>
