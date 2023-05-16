@@ -88,7 +88,7 @@ const App = () => {
               <div className="project-box">
 
                 <div className="project">
-                <a href="https://powerful-badlands-84110.herokuapp.com/">
+                <a href="https://powerful-badlands-84110.herokuapp.com/" target="_blank">
                 <img src={reMEMBER} alt="re:MEMBER" className="project-photo" />
                 </a>
                 <div className="project-description">
